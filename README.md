@@ -4,7 +4,7 @@
 
 Feistel is a cryptographic construction where we run the input through several rounds of the same operation to obscure the information.
 
-<div style="text-align: center">
+<div align="center">
 <img src="images/img-01.png" width="400"/>
 </div>
 
@@ -26,7 +26,7 @@ $$
 
 When we have a hashing or encryption routine, we can observe in the imag, that there is a repetitive function that's being repeatedly called,this is what we call an encryption routine.
 
-<div style="text-align: center">
+<div align="center">
 <img src="images/img-02.png" width="800"/>
 </div>
 
