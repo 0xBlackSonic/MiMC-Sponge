@@ -1,4 +1,4 @@
-# MiMC Sponge Hasing Function
+# MiMC Sponge Hashing Function
 
 ## Feistel Construction
 
@@ -24,7 +24,7 @@ $$
 
 ## Sponge Construction
 
-When we have a hashing or encryption routine, we can observe in the imag, that there is a repetitive function that's being repeatedly called,this is what we call an encryption routine.
+When we have a hashing or encryption routine, we can observe in the image, that there is a repetitive function that's being repeatedly called, this is what we call an encryption routine.
 
 <div align="center">
 <img src="images/img-02.png" width="800"/>
@@ -97,8 +97,8 @@ The `output.json` file will containe all the needed information to verify the ha
  "1",
  "6906751751132866857607779193285795505620303112443580868552435627972436601937",    // (Hash result)
  "456789641313213576432134676436514654",                                            // (k)
- "465496879413254687465132246579864132165",                                         // (ins[1])
- "486761234643215765132165743216576",                                               // (ins[2])
+ "465496879413254687465132246579864132165",                                         // (ins[0])
+ "486761234643215765132165743216576",                                               // (ins[1])
  "124526159513644676556066245536390529017852662381898855148275915819666365149",
  "18526273497268012656042589574535035380658746758970096024708814641553788213479",
  ...,
